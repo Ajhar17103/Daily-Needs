@@ -1,0 +1,22 @@
+#body{
+    padding: 10%;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(../image/vege.jpg) ,no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+ 
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+b{
+    color: orangered;
+}
+p{
+    
+    font-weight: bolder;
+}
+span{
+    font-family: 'Pacifico', cursive;
+}

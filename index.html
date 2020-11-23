@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Daily Need's </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--StyleCss-->
+    <link rel='stylesheet' type='text/css' href='./Style/style.css'>
+    <!--FontAwsome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body id='body' > 
+      <div >
+          <div class="text-center">
+            <p class="display-4"  > <i class="fas fa-folder-open"></i> <b>Daily</b> Need's</p>
+            <span> All things  in one App.</span>
+            <hr/>
+          </div>
+          <form>
+            <div class="form-group ">
+              <label for="itemName">Item's Name</label>
+              <input type="text" class="form-control" id='itemName'   >
+            </div>
+            <div class="form-group ">
+              <label for="itemName">Number of Item's (Weight) </label>
+              <input type="text"  class="form-control" id='itemWeight'>
+            </div>
+            <div class="form-group ">
+              <label for="itemWeight">Item's Price </label>
+              <input type="text"  class="form-control" id='itemPrice'   >
+            </div>
+             
+            
+            <button type="submit" id="submit" class="btn btn-primary w-100">Submit</button>
+          </form>
+            <hr/>
+            <table class="table table-striped mt-2n text-center bg-success">
+              <thead>
+                <tr>
+                <th> Item's Name</th>
+                <th> Number of Item's (Weight)</th>
+                <th> Item's Price</th>
+                <th> Total Item's Price</th>
+              </tr>
+              </thead>
+              <tbody id="item"></tbody>
+
+            </table>
+      </div>
+    <script src='./mainjs/Script.js'></script>
+  </body>
+</html>
